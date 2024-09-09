@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements Example</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #333;
+        }
+        table {
+            width: 50%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Page title -->
+    <h1>Welcome to My HTML Elements Example</h1>
+
+    <!-- Quotation example -->
+    <blockquote>
+        "The best way to predict the future is to invent it." - Alan Kay
+    </blockquote>
+
+    <!-- Comment example -->
+    <!-- This is a comment, it will not be displayed in the browser -->
+
+    <!-- Ordered List -->
+    <h2>Steps to Create a Webpage</h2>
+    <ol>
+        <li>Choose a text editor.</li>
+        <li>Write your HTML code.</li>
+        <li>Test it in a browser.</li>
+        <li>Upload to a web server.</li>
+    </ol>
+
+    <!-- Unordered List -->
+    <h2>Popular Programming Languages</h2>
+    <ul>
+        <li>Python</li>
+        <li>C</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+    </ul>
+
+    <!-- Table design with rowspan and colspan -->
+    <h2>Example Table with Rowspan and Colspan</h2>
+    <table>
+        <tr>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Marks</th>
+        </tr>
+        <tr>
+            <th>Math</th>
+            <th>Science</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>90</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>95</td>
+            <td>80</td>
+        </tr>
+    </table>
+
+    <!-- Link example -->
+    <h2>Visit My Blog</h2>
+    <p>Click <a href="https://www.example.com" target="_blank" style="color:blue;">here</a> to visit my blog.</p>
+
+    <!-- Image example -->
+    <h2>Beautiful Scenery</h2>
+    <img src="https://www.example.com/image.jpg" alt="Scenery" width="300" height="200">
+
+</body>
+</html>

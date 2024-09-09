@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Main Heading (h1)</h1>
+    <p>This is a <strong>paragraph</strong> element with <i>italicized</i> text and <b>bold</b> text.</p>
+    
+    <h2>Subheading Level 2 (h2)</h2>
+    <p>Here's a <a href="https://www.example.com" target="_blank" title="Example Site">link</a> to an external site.</p>
+    
+    <h3>Subheading Level 3 (h3)</h3>
+    <p>Some <em>emphasized</em> text and <mark>highlighted</mark> text.</p>
+    
+    <h4>Subheading Level 4 (h4)</h4>
+    <p>Text with <small>smaller</small> and <del>deleted</del> text.</p>
+    
+    <h5>Subheading Level 5 (h5)</h5>
+    <p>Added <ins>inserted</ins> text for demonstration.</p>
+    
+    <h6>Subheading Level 6 (h6)</h6>
+    <p>Text with <sub>subscript</sub> and <sup>superscript</sup>.</p>
+    
+    <br>
+    <p>Below is an image:</p>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image" style="border: 1px solid #000;">
+    
+    <pre>
+        This is a preformatted text block.
+        It preserves spaces and line breaks.
+    </pre>
+
+    <p>Note how different HTML elements are styled and rendered on the page.</p>
+    
+</body>
+</html>
